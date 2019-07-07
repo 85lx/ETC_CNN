@@ -1,5 +1,6 @@
 # ETC_CNN
 Encrypted traffic classification  use CNN
+采用CNN对加密流量进行分类 当前版本仅支持TCP。简单的示例程序。
 第一步：将pcap数据包转换为json。  
 pcap2json.py 
 -i 后接pcap格式或者pcapng格式文件，也可是包含若干pcap文件的 目录/*。 为了便于后续数据标注，该目录下的pcap应为同一标签类型。
